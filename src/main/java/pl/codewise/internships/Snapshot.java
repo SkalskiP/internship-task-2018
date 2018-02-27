@@ -1,5 +1,15 @@
 package pl.codewise.internships;
 
-public class Snapshot {
+import java.util.List;
 
+public class Snapshot {
+    private List<Message> messages;
+
+    public Snapshot(List<Message> messages) {
+        this.messages = messages;
+    }
+
+    public List<Message> getMessages() {
+        return messages;
+    }
 }
